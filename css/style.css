@@ -44,3 +44,40 @@ nav i {
   border-bottom: 2px solid #8ab4f8;
 }
 /* end nav */
+
+/* Start main */
+main {
+    width: 40rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top: none;
+    border: 1px solid #4d5054e8;
+    font-size: 1rem;
+  }
+  section input {
+    margin: 3rem 1rem;
+    padding: 1rem 0;
+    width: 19rem;
+    font-size: 2rem;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+  .timerSec div{
+    text-align: center;
+    margin: 2rem 1rem;
+    padding: 1.2rem 0;
+    width: 15rem;
+    font-size: 2.5rem;
+  }
+  .timeDiv {
+    color: white;
+    border-bottom: 1px solid #4d5054e8;
+  }
+  .stopSec {
+    display: none;
+  }
+/* End main */
