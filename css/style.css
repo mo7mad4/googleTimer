@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Montserrat&family=Poppins:ital,wght@0,100;0,200;1,100&family=Raleway:ital,wght@0,100;0,300;0,500;0,600;0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,400;1,300;1,400;1,500&family=Tajawal:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #202124;
+  color: #6d7276;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem 0;
+}
+/* Start nav */
+nav {
+  width: 40rem;
+  border: 1px solid #4d5054e8;
+  font-size: 1rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  -webkit-border-radius: 0.5rem 0.5rem 0 0;
+  -moz-border-radius: 0.5rem 0.5rem 0 0;
+  -ms-border-radius: 0.5rem 0.5rem 0 0;
+  -o-border-radius: 0.5rem 0.5rem 0 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav li {
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  padding: 1.2rem 3rem;
+  cursor: pointer;
+}
+nav i {
+  padding: 0 0.8rem;
+}
+.active {
+  color: #8ab4f8;
+  border-bottom: 2px solid #8ab4f8;
+}
+/* end nav */
