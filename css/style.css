@@ -81,3 +81,43 @@ main {
     display: none;
   }
 /* End main */
+
+/* Start footer */
+footer {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top: none;
+    border: 1px solid #4d5054e8;
+    border-radius: 0 0 0.5rem 0.5rem;
+    -webkit-border-radius: 0 0 0.5rem 0.5rem;
+    -moz-border-radius: 0 0 0.5rem 0.5rem;
+    -ms-border-radius: 0 0 0.5rem 0.5rem;
+    -o-border-radius: 0 0 0.5rem 0.5rem;
+  }
+  footer button {
+    font-weight: 600;
+    width: 5rem;
+    padding: 0.3rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+  }
+  .st {
+    background-color: #8ab4f8;
+    margin: 0 1rem;
+  }
+  .reset {
+    background-color: #bdc3c9;
+  }
+  .stopFooter {
+    display: none;
+  }
+
+/* End footer */
